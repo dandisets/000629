@@ -6,12 +6,39 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 16604822159908
+  numberOfFiles: 113
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Position
+  - ElectricalSeries
+  - ProcessingModule
+  - SpatialSeries
+  - BehavioralEvents
 citation: Gillespie, Anna (2023) Gillespie et al (2023) Neurofeedback training can
   modulate task-relevant memory replay rate in rats (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000629/draft
+  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: akgillespie8@gmail.com
@@ -21,12 +48,14 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-09-10T19:49:56.118436+00:00'
+datePublished: '2023-12-01T16:39:29.442541+00:00'
 description: 'This dataset includes the electrophysiological (dorsal CA1 tetrodes)
   and behavioral (port triggers, reward delivery, and position tracking) data from
   the 4 subjects in the neurofeedback cohort described in Gillespie et al, eLife 2023:
   "Neurofeedback training can modulate task-relevant memory replay rate in rats".
   The data for the 4 control cohort subjects can be found in Dandiset 000115 (https://dandiarchive.org/dandiset/000115).
   For more information about this data, please contact Anna Gillespie.'
+doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000629/draft
 identifier: DANDI:000629
 license:
@@ -35,6 +64,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000629/versions/draft/assets/
 name: Gillespie et al (2023) Neurofeedback training can modulate task-relevant memory
   replay rate in rats
+publishedBy:
+  endDate: '2023-12-01T16:39:29.442541+00:00'
+  id: urn:uuid:dbe9c249-1bd8-4a7d-81f0-70873b668b33
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-12-01T16:39:29.442541+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:6b337d81-a5f7-42e1-8fa2-0b3fb9f3cfa3
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
