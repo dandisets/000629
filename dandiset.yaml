@@ -11,7 +11,7 @@ assetsSummary:
   numberOfFiles: 1
   schemaKey: AssetsSummary
 citation: Gillespie, Anna; Denovellis, Eric; Frank, Loren; Desse, Sachi; Astudillo
-  Maya, Daniela (2023) Gillespie et al (2023) Neurofeedback training can modulate
+  Maya, Daniela (2023) Gillespie et al (2024) Neurofeedback training can modulate
   task-relevant memory replay rate in rats (Version draft) [Data set]. DANDI archive.
   https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
@@ -83,10 +83,10 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-09-10T19:49:56.118436+00:00'
-datePublished: '2023-12-27T22:58:10.878018+00:00'
+datePublished: '2023-12-28T03:31:13.853135+00:00'
 description: 'This dataset includes the electrophysiological (dorsal CA1 tetrodes)
   and behavioral (port triggers, reward delivery, and position tracking) data from
-  the 4 subjects in the neurofeedback cohort described in Gillespie et al, eLife 2023:
+  the 4 subjects in the neurofeedback cohort described in Gillespie et al, eLife 2024:
   "Neurofeedback training can modulate task-relevant memory replay rate in rats".
   The data for the 4 control cohort subjects can be found in Dandiset 000115 (https://dandiarchive.org/dandiset/000115).
   For more information about this data, please contact Anna Gillespie.'
@@ -99,22 +99,23 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000629/versions/draft/assets/
-name: Gillespie et al (2023) Neurofeedback training can modulate task-relevant memory
+name: Gillespie et al (2024) Neurofeedback training can modulate task-relevant memory
   replay rate in rats
 protocol: []
 publishedBy:
-  endDate: '2023-12-27T22:58:10.878018+00:00'
-  id: urn:uuid:64cc31ca-0326-4c28-8649-014915cc1939
+  endDate: '2023-12-28T03:31:13.853135+00:00'
+  id: urn:uuid:838eb6c4-1056-4364-8ad8-6b74831b4b0b
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-27T22:58:10.878018+00:00'
+  startDate: '2023-12-28T03:31:13.853135+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:28a129e9-558d-44e3-8a81-e1d6f0cc1132
+  - id: urn:uuid:60ed2029-c101-4ba2-b163-4944cab7e3ed
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource: []
+relatedResource:
+- {}
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
