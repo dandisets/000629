@@ -7,9 +7,36 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 16808409955494
+  numberOfFiles: 114
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Position
+  - ElectricalSeries
+  - ProcessingModule
+  - SpatialSeries
+  - BehavioralEvents
 citation: Gillespie, Anna; Denovellis, Eric; Frank, Loren; Desse, Sachi; Astudillo
   Maya, Daniela (2023) Gillespie et al (2024) Neurofeedback training can modulate
   task-relevant memory replay rate in rats (Version draft) [Data set]. DANDI archive.
