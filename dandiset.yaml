@@ -37,10 +37,9 @@ assetsSummary:
   - ProcessingModule
   - SpatialSeries
   - BehavioralEvents
-citation: Gillespie, Anna; Denovellis, Eric; Frank, Loren; Desse, Sachi; Astudillo
-  Maya, Daniela (2023) Gillespie et al (2024) Neurofeedback training can modulate
-  task-relevant memory replay rate in rats (Version draft) [Data set]. DANDI archive.
-  https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Gillespie, Anna; Astudillo Maya, Daniela; Denovellis, Eric; Desse, Sachi;
+  Frank, Loren (2024) Gillespie et al (2024) Neurofeedback training can modulate task-relevant
+  memory replay rate in rats (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation:
   - identifier: https://ror.org/00cvxb145
@@ -65,6 +64,17 @@ contributor:
   - identifier: https://ror.org/043mz5j54
     name: University of California, San Francisco
     schemaKey: Affiliation
+  email: daniela.astudillo@ucsf.edu
+  includeInCitation: true
+  name: Astudillo Maya, Daniela
+  roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/043mz5j54
+    name: University of California, San Francisco
+    schemaKey: Affiliation
   email: eric.denovellis@ucsf.edu
   identifier: 0000-0003-4606-087X
   includeInCitation: true
@@ -73,19 +83,6 @@ contributor:
   - dcite:Author
   - dcite:Methodology
   - dcite:Software
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/043mz5j54
-    name: University of California, San Francisco
-    schemaKey: Affiliation
-  email: loren.frank@ucsf.edu
-  includeInCitation: true
-  name: Frank, Loren
-  roleName:
-  - dcite:Author
-  - dcite:Conceptualization
-  - dcite:FundingAcquisition
-  - dcite:Supervision
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/043mz5j54
@@ -102,15 +99,17 @@ contributor:
   - identifier: https://ror.org/043mz5j54
     name: University of California, San Francisco
     schemaKey: Affiliation
-  email: daniela.astudillo@ucsf.edu
+  email: loren.frank@ucsf.edu
   includeInCitation: true
-  name: Astudillo Maya, Daniela
+  name: Frank, Loren
   roleName:
-  - dcite:DataCollector
   - dcite:Author
+  - dcite:Conceptualization
+  - dcite:FundingAcquisition
+  - dcite:Supervision
   schemaKey: Person
 dateCreated: '2023-09-10T19:49:56.118436+00:00'
-datePublished: '2023-12-28T03:31:13.853135+00:00'
+datePublished: '2024-02-09T16:59:24.499985+00:00'
 description: 'This dataset includes the electrophysiological (dorsal CA1 tetrodes)
   and behavioral (port triggers, reward delivery, and position tracking) data from
   the 4 subjects in the neurofeedback cohort described in Gillespie et al, eLife 2024:
@@ -121,7 +120,12 @@ doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000629/draft
 identifier: DANDI:000629
-keywords: []
+keywords:
+- hippocampus
+- replay
+- neurofeedback
+- sharp-wave ripples
+- electrophysiology
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -130,19 +134,18 @@ name: Gillespie et al (2024) Neurofeedback training can modulate task-relevant m
   replay rate in rats
 protocol: []
 publishedBy:
-  endDate: '2023-12-28T03:31:13.853135+00:00'
-  id: urn:uuid:838eb6c4-1056-4364-8ad8-6b74831b4b0b
+  endDate: '2024-02-09T16:59:24.499985+00:00'
+  id: urn:uuid:4998e93f-2913-4893-836f-88f73a5f5485
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-28T03:31:13.853135+00:00'
+  startDate: '2024-02-09T16:59:24.499985+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:60ed2029-c101-4ba2-b163-4944cab7e3ed
+  - id: urn:uuid:f03bc31f-a9d0-4f44-a4e5-8c0ddeef76be
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource:
-- {}
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
