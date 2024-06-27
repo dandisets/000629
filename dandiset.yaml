@@ -39,7 +39,7 @@ assetsSummary:
   - BehavioralEvents
 citation: Gillespie, Anna; Astudillo Maya, Daniela; Denovellis, Eric; Desse, Sachi;
   Frank, Loren (2024) Gillespie et al (2024) Neurofeedback training can modulate task-relevant
-  memory replay rate in rats (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  memory replay rate in rats (Version 0.240627.0646) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000629/0.240627.0646
 contributor:
 - affiliation:
   - identifier: https://ror.org/00cvxb145
@@ -116,9 +116,9 @@ description: 'This dataset includes the electrophysiological (dorsal CA1 tetrode
   "Neurofeedback training can modulate task-relevant memory replay rate in rats".
   The data for the 4 control cohort subjects can be found in Dandiset 000115 (https://dandiarchive.org/dandiset/000115).
   For more information about this data, please contact Anna Gillespie.'
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000629/0.240627.0646
 ethicsApproval: []
-id: DANDI:000629/draft
+id: DANDI:000629/0.240627.0646
 identifier: DANDI:000629
 keywords:
 - hippocampus
@@ -129,7 +129,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000629/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000629/0.240627.0646/assets.yaml
 name: Gillespie et al (2024) Neurofeedback training can modulate task-relevant memory
   replay rate in rats
 protocol: []
@@ -150,6 +150,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000629/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000629/0.240627.0646
+version: 0.240627.0646
 wasGeneratedBy: []
