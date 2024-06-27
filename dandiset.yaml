@@ -109,7 +109,7 @@ contributor:
   - dcite:Supervision
   schemaKey: Person
 dateCreated: '2023-09-10T19:49:56.118436+00:00'
-datePublished: '2024-02-09T16:59:24.499985+00:00'
+datePublished: '2024-06-27T06:46:46.055716+00:00'
 description: 'This dataset includes the electrophysiological (dorsal CA1 tetrodes)
   and behavioral (port triggers, reward delivery, and position tracking) data from
   the 4 subjects in the neurofeedback cohort described in Gillespie et al, eLife 2024:
@@ -134,13 +134,13 @@ name: Gillespie et al (2024) Neurofeedback training can modulate task-relevant m
   replay rate in rats
 protocol: []
 publishedBy:
-  endDate: '2024-02-09T16:59:24.499985+00:00'
-  id: urn:uuid:4998e93f-2913-4893-836f-88f73a5f5485
+  endDate: '2024-06-27T06:46:46.055716+00:00'
+  id: urn:uuid:5686089d-fad5-470f-bf71-8cf65034be83
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-09T16:59:24.499985+00:00'
+  startDate: '2024-06-27T06:46:46.055716+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:f03bc31f-a9d0-4f44-a4e5-8c0ddeef76be
+  - id: urn:uuid:f52b9d0b-077d-4d57-8b33-2eb48ba93e16
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
